@@ -4,7 +4,6 @@ Koala is a SaaS Blog App and still work in progress.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 cd code
