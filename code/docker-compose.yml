@@ -24,6 +24,7 @@ services:
     container_name: cphp
     volumes:
       - .:/var/www/code/
+    command: composer install
     ports:
       - "9000:9000"
     networks:
