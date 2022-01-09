@@ -16,6 +16,3 @@ RUN curl -sS https://get.symfony.com/cli/installer | bash
 RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 
 # RUN composer self-update --1
-RUN composer install
-
-RUN chmod -R 777 var/

@@ -13,6 +13,18 @@ cd code
 docker-compose up
 ```
 
+
+```bash
+docker exec -it cphp bash
+```
+
+```bash
+composer install
+```
+
+```bash
+chmod -R 777 var/
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
